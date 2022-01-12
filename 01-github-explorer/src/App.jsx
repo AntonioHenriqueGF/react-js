@@ -1,5 +1,12 @@
+import { RepositoryList } from './components/RepositoryList';
+import { RecipeList } from './components/RecipeList';
 import './styles/global.scss';
+import './styles/recipes.scss';
 
 export function App() {
-    return <h1>Hello, World!</h1>;
+    return (
+        <>
+            <RecipeList />
+        </>
+    );
 }
